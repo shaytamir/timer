@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//shaytamir.github.io/timer/static/css/main.ec6bf18b.chunk.css",
-    "main.js": "//shaytamir.github.io/timer/static/js/main.b3a868e3.chunk.js",
-    "main.js.map": "//shaytamir.github.io/timer/static/js/main.b3a868e3.chunk.js.map",
+    "main.js": "//shaytamir.github.io/timer/static/js/main.5c7100ec.chunk.js",
+    "main.js.map": "//shaytamir.github.io/timer/static/js/main.5c7100ec.chunk.js.map",
     "runtime-main.js": "//shaytamir.github.io/timer/static/js/runtime-main.448508e5.js",
     "runtime-main.js.map": "//shaytamir.github.io/timer/static/js/runtime-main.448508e5.js.map",
     "static/js/2.f0344bd5.chunk.js": "//shaytamir.github.io/timer/static/js/2.f0344bd5.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.448508e5.js",
     "static/js/2.f0344bd5.chunk.js",
     "static/css/main.ec6bf18b.chunk.css",
-    "static/js/main.b3a868e3.chunk.js"
+    "static/js/main.5c7100ec.chunk.js"
   ]
 }
