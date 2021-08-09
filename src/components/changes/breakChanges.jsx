@@ -9,9 +9,8 @@ function BreakChange() {
     <div className="break_changes">
       <h2 id="break-label">Break Length</h2>
       <div className="arrow_icons_div">
-        <img
-          src="../../images/icons/down_arrow.png"
-          alt="down arrow"
+        <i
+          className="fas fa-angle-down"
           id="break-decrement"
           onClick={() => {
             !distate.play &&
@@ -19,19 +18,17 @@ function BreakChange() {
               !distate.start &&
               display.dispatch(["break", "-"]);
           }}
-        />
+        ></i>
         <div id="break-length">
           {!distate.play ? distate.newBreak : distate.newBreak}
-          {/* {distate.break} */}
         </div>
-        <img
+        <i
+          className="fas fa-angle-up"
           id="break-increment"
-          src="../../images/icons/up_arrow.png"
-          alt="up arrow"
           onClick={() => {
             !distate.play && !distate.start && display.dispatch(["break", "+"]);
           }}
-        />
+        ></i>
       </div>
     </div>
   );

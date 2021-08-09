@@ -57,7 +57,7 @@ function Display() {
     return audioTAG;
   }
   useEffect(() => {
-    let int = setInterval(() => tick(), 1000);
+    let int = setInterval(() => tick(), 100);
     // int();
     return () => {
       clearInterval(int);
@@ -79,7 +79,11 @@ function Display() {
       </div>
       <div>
         <audio id="beep">
-          <source src="/audio/bip.wav" type="audio/mp3" />
+          {/* <source src="/audio/bip.wav" type="audio/mp3" /> */}
+          <source
+            src="http://www.ggaub.com/ltag/downloads/sound_lock-on-opponent.wav"
+            type="audio/mp3"
+          />
         </audio>
       </div>
     </div>

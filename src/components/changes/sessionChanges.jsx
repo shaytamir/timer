@@ -9,30 +9,29 @@ function SessionChanges() {
     <div className="session_changes">
       <h2 id="session-label">Session Length</h2>
       <div className="arrow_icons_div">
-        <img
+        <i
+          className="fas fa-angle-down"
           id="session-decrement"
-          src="/images/icons/down_arrow.png"
-          alt="down arrow"
           onClick={() => {
             !distate.play &&
               distate.session > 1 &&
               !distate.start &&
               display.dispatch(["session", "-"]);
           }}
-        />
+        ></i>
+
         <div id="session-length">
           {!distate.play ? distate.newSession : distate.newSession}
         </div>
-        <img
+        <i
+          className="fas fa-angle-up"
           id="session-increment"
-          src="/images/icons/up_arrow.png"
-          alt="up arrow"
           onClick={() => {
             !distate.play &&
               !distate.start &&
               display.dispatch(["session", "+"]);
           }}
-        />
+        ></i>
       </div>
     </div>
   );
