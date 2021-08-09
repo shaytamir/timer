@@ -57,7 +57,7 @@ function Display() {
     return audioTAG;
   }
   useEffect(() => {
-    let int = setInterval(() => tick(), 100);
+    let int = setInterval(() => tick(), 1000);
     // int();
     return () => {
       clearInterval(int);
