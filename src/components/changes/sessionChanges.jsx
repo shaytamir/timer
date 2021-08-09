@@ -11,7 +11,7 @@ function SessionChanges() {
       <div className="arrow_icons_div">
         <img
           id="session-decrement"
-          src="../../images/icons/down_arrow.png"
+          src="/images/icons/down_arrow.png"
           alt="down arrow"
           onClick={() => {
             !distate.play &&
@@ -25,7 +25,7 @@ function SessionChanges() {
         </div>
         <img
           id="session-increment"
-          src="../../images/icons/up_arrow.png"
+          src="/images/icons/up_arrow.png"
           alt="up arrow"
           onClick={() => {
             !distate.play &&
